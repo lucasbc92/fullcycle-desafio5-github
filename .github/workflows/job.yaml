@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: docker exec lucasbc92/fullcycle-desafio5-github npm run test
+      - run: npm run test
